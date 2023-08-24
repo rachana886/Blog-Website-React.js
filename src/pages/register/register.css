@@ -1,0 +1,61 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ), url("https://www.solidbackgrounds.com/images/5120x2880/5120x2880-pastel-brown-solid-color-background.jpg");
+    background-size: cover;
+} 
+
+.registerTitle {
+    font-size: 50px;
+    font-family: 'Montserrat', 'Sans-Serrif';
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label {
+    margin: 10px 0;
+    font-family: 'Montserrat', 'Sans-Serrif';
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #3d251e;
+}
+
+.registerButton {
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    color: white;
+    background-color: #4c3228;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+    color: white;
+    background-color: #5b3e31;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
